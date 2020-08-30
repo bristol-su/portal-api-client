@@ -1,0 +1,30 @@
+{
+    "name": "bristol-su/portal-api-client",
+    "description": "A Bristol SU Api Client exension for the core portal API",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Toby Twigger",
+            "email": "tobytwigger1@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "bristol-su/api-client-toolkit": "dev-develop"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.3",
+        "phpspec/prophecy-phpunit": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "BristolSU\\ApiClientImplementation\\Portal\\": "src/"
+        },
+        "classmap": []
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "BristolSU\\ApiClientImplementation\\Tests\\Portal\\": "tests/"
+        }
+    }
+}
